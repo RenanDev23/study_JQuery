@@ -1,13 +1,12 @@
 {
 	"folders": [
 		{
+			"name": "JQuery_EBAC",
 			"path": "../../JQuery_EBAC"
 		},
 		{
+			"name": "modulo_9_estrutura_inicial",
 			"path": "."
-		},
-		{
-			"path": "../../FontEnd M9 - images/images"
 		}
 	],
 	"settings": {}

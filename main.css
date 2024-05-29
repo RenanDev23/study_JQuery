@@ -23,6 +23,7 @@ form {
     background-color: #c8dce5;
     padding: 24px 0;
     text-align: center;
+    display: none;
 }
 
 form h2 {
@@ -45,4 +46,16 @@ button{
 
 #botao-cancelar {
     background-color: #d00808;
+}
+
+#ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li img {
+    width: 100%;
 }
