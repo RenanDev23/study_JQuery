@@ -9,9 +9,7 @@
     <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
-
 </head>
-
 <body>
     <header>
         <h1>Galeria de Fotos</h1>
@@ -19,42 +17,36 @@
     </header>
     <form>
         <h2>Inserir nova imagem</h2>
-        <input type="url" required placeholder="URL da imagem">
+        <input type="url" id="endereco-imagem-nova" required placeholder="URL da imagem"/>
         <button type="submit">Adicionar</button>
         <button type="reset" id="botao-cancelar">Cancelar</button>
     </form>
-   <div id="ul">
     <ul>
         <li>
             <img src="./img/foto1.jpg" alt="Pintura de um gato" />
-            <dev>
+            <div class="overlay-imagem-link">
                 <a href="./img/foto1.jpg" title="Ver imagem em tamanho real" target="_blank">
                 Ver imagem em tamanho real
                 </a>
-            </dev>
+            </div>
         </li>
-    </ul>
-    <ul>
         <li>
             <img src="./img/foto2.jpg" alt="Imagem de um Flamingo" />
-            <dev>
+            <div class="overlay-imagem-link">
                 <a href="./img/foto2.jpg" title="Ver imagem em tamanho real" target="_blank">
                 Ver imagem em tamanho real
                 </a>
-            </dev>
+            </div>
         </li>
-    </ul>
-    <ul>
         <li>
             <img src="./img/foto3.jpg" alt="Imagem dos cachorrinhos" />
-            <dev>
+            <div class="overlay-imagem-link">
                 <a href="./img/foto3.jpg" title="Ver imagem em tamanho real" target="_blank">
                 Ver imagem em tamanho real
                 </a>
-            </dev>
+            </div>
         </li>
     </ul>
-   </div>
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="./main.js"></script>
 </body>
